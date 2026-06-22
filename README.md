@@ -1,12 +1,20 @@
 Intern Details
+
 Intern ID: CITS3621
+
 Name:Ramya Devi.R
+
 Duration: 4 Weeks
+
 Project Name
+
 Cloud Security Auditor for AWS
 Project Scope
+
 This project simulates an AWS Cloud Security Auditor that checks cloud resources for common security misconfigurations. The system analyzes AWS services such as IAM, S3, EC2 Security Groups, and RDS databases to identify potential security risks and generate audit findings.
+
 Technologies Used
+
 Python
 AWS SDK (Boto3)
 JSON
@@ -17,7 +25,9 @@ AWS IAM
 AWS S3
 AWS EC2
 AWS RDS
+
 Features
+
 Audits IAM Root Account MFA status
 Checks S3 Bucket Public Access settings
 Detects risky EC2 Security Group rules
@@ -30,14 +40,18 @@ Retrieve Cloud Resource Information
 Analyze Security Configurations
 Identify Vulnerabilities
 Generate Security Findings Report
+
 Display Audit Results
 How to Run
+
 1. Install Required Libraries
 Bash
 pip install boto3
 2. Configure AWS Credentials
 Python
+
 import os
+
 
 os.environ["AWS_ACCESS_KEY_ID"] = "YOUR_ACCESS_KEY"
 os.environ["AWS_SECRET_ACCESS_KEY"] = "YOUR_SECRET_KEY"
